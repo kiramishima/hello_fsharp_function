@@ -16,7 +16,7 @@ module Function1 =
     [<FunctionName("HelloFunction")>]
     let Run([<HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = null)>] req : HttpRequest, log: ILogger) =
         log.LogInformation("F# HTTP trigger function processed a request.")
-        OkObjectResult "Nino Nino"
+        OkObjectResult "This is an example of Azure Function with F#"
 
 
 
