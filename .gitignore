@@ -332,3 +332,16 @@ ASALocalRun/
 bin/
 obj/
 .ionide
+### F# ###
+lib/debug
+lib/release
+Debug
+*.suo
+*.user
+obj
+bin
+*.exe
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
