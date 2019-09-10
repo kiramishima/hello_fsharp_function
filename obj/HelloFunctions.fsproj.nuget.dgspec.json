@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Workspace\\ws_dotnet\\demo\\MyDemoFunction\\HelloFunctions\\HelloFunctions.fsproj": {}
+  },
+  "projects": {
+    "D:\\Workspace\\ws_dotnet\\demo\\MyDemoFunction\\HelloFunctions\\HelloFunctions.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Workspace\\ws_dotnet\\demo\\MyDemoFunction\\HelloFunctions\\HelloFunctions.fsproj",
+        "projectName": "HelloFunctions",
+        "projectPath": "D:\\Workspace\\ws_dotnet\\demo\\MyDemoFunction\\HelloFunctions\\HelloFunctions.fsproj",
+        "packagesPath": "C:\\Users\\kiram\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\ws_dotnet\\demo\\MyDemoFunction\\HelloFunctions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kiram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/aspnetcore-ci-dev/api/v3/index.json": {},
+          "https://dotnet.myget.org/F/aspnetcore-tools/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[1.0.29, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100-preview9-014004\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
