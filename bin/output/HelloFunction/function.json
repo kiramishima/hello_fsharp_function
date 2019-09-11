@@ -5,7 +5,8 @@
     {
       "type": "httpTrigger",
       "methods": [
-        "get"
+        "get",
+        "post"
       ],
       "authLevel": "anonymous",
       "name": "req"
@@ -13,5 +14,5 @@
   ],
   "disabled": false,
   "scriptFile": "../bin/HelloFunctions.dll",
-  "entryPoint": "HelloFunctions.Function1.Run"
+  "entryPoint": "HelloFunctions.HelloFunction.Run"
 }
