@@ -6,7 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Library.fs" />
+    <Compile Include="Library/Library.fs" />
+    <Compile Include="Hello/Hello.fs" />
+    <Compile Include="Bye/Bye.fs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -14,13 +16,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="host.json">
+    <None Update="host.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="local.settings.json">
+    </None>
+    <None Update="local.settings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <CopyToPublishDirectory>Never</CopyToPublishDirectory>
-    </Content>
+    </None>
   </ItemGroup>
 
 </Project>
